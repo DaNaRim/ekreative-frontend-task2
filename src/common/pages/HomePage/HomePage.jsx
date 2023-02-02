@@ -5,22 +5,19 @@ import HomeHeader from "../../components/HomeHeader/HomeHeader";
 import HowWeWork from "../../components/HowWeWork/HowWeWork";
 import InquiryForm from "../../components/InquiryForm/InquiryForm";
 import OurProjects from "../../components/OurProjects/OurProjects";
-import PageWrapper from "../../components/PageWrapper/PageWrapper";
 import Reviews from "../../components/Reviews/Reviews";
 
 const HomePage = () => (
-  <PageWrapper>
-    <main>
-      <HomeHeader/>
-      <HowWeWork/>
-      <OurProjects/>
-      <Features/>
-      <Reviews/>
-      <Faq/>
-      <InquiryForm/>
-      <Blog/>
-    </main>
-  </PageWrapper>
+  <main>
+    <HomeHeader/>
+    <HowWeWork/>
+    <OurProjects/>
+    <Features/>
+    <Reviews/>
+    <Faq/>
+    <InquiryForm/>
+    <Blog/>
+  </main>
 );
 
 export default HomePage;
