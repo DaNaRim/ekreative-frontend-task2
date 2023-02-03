@@ -1,5 +1,6 @@
 import AboutUsHeader from "../../components/sections/AboutUsHeader/AboutUsHeader";
 import MissionAndVision from "../../components/sections/MissionAndVision/MissionAndVision";
+import OurBenefits from "../../components/sections/OurBenefits/OurBenefits";
 import OurProcess from "../../components/sections/OurProcess/OurProcess";
 import WhoWeAre from "../../components/sections/WhoWeAre/WhoWeAre";
 
@@ -10,71 +11,8 @@ const AboutUsPage = () => {
       <WhoWeAre/>
       <OurProcess/>
       <MissionAndVision/>
+      <OurBenefits/>
 
-
-      {/*<section className="our_benefits col_dark_blue">*/}
-      {/*  <h2>The benefits of working with us</h2>*/}
-      {/*  <div className="cards_wrapper">*/}
-      {/*    <div className="card bgc_grey">*/}
-      {/*      <div className="card_icon">*/}
-      {/*        <img src="../icons/notes.png" alt="notes icon" height="68" width="68"/>*/}
-      {/*      </div>*/}
-      {/*      <h6>Customize with ease</h6>*/}
-      {/*      <p className="body1">*/}
-      {/*        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore*/}
-      {/*        et dolore magna aliqua ut enim.*/}
-      {/*      </p>*/}
-      {/*    </div>*/}
-      {/*    <div className="card bgc_grey">*/}
-      {/*      <div className="card_icon">*/}
-      {/*        <img src="../icons/tools.png" alt="tools icon" height="70" width="70"/>*/}
-      {/*      </div>*/}
-      {/*      <h6>Perfectly Responsive</h6>*/}
-      {/*      <p className="body1">*/}
-      {/*        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore*/}
-      {/*        et dolore magna aliqua ut enim.*/}
-      {/*      </p>*/}
-      {/*    </div>*/}
-      {/*    <div className="card bgc_grey">*/}
-      {/*      <div className="card_icon">*/}
-      {/*        <img src="../icons/people.png" alt="people icon" height="56" width="64"/>*/}
-      {/*      </div>*/}
-      {/*      <h6>Friendly Support</h6>*/}
-      {/*      <p className="body1">*/}
-      {/*        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore*/}
-      {/*        et dolore magna aliqua ut enim.*/}
-      {/*      </p>*/}
-      {/*    </div>*/}
-      {/*  </div>*/}
-      {/*  <div className="partners">*/}
-      {/*    <div className="users">*/}
-      {/*      <h3>100.000+</h3>*/}
-      {/*      <p className="body1">Finsweet Users</p>*/}
-      {/*    </div>*/}
-      {/*    <div className="partners_wrapper">*/}
-      {/*      <div className="partner">*/}
-      {/*        <img src="../icons/partner1.png" alt="logoipsum logo" height="64" width="64"/>*/}
-      {/*        <p>logoipsum&dot;</p>*/}
-      {/*      </div>*/}
-      {/*      <div className="partner">*/}
-      {/*        <img src="../icons/partner2.png" alt="logoipsum logo" height="62" width="51"/>*/}
-      {/*        <p>logoipsum&dot;</p>*/}
-      {/*      </div>*/}
-      {/*      <div className="partner">*/}
-      {/*        <img src="../icons/partner3.png" alt="logoipsum logo" height="62" width="62"/>*/}
-      {/*        <p>logoipsum</p>*/}
-      {/*      </div>*/}
-      {/*      <div className="partner">*/}
-      {/*        <img src="../icons/partner4.png" alt="logoipsum logo" height="62" width="72"/>*/}
-      {/*        <p>logoipsum</p>*/}
-      {/*      </div>*/}
-      {/*      <div className="partner">*/}
-      {/*        <img src="../icons/partner5.png" alt="logoipsum logo" height="64" width="64"/>*/}
-      {/*        <p>logoipsum</p>*/}
-      {/*      </div>*/}
-      {/*    </div>*/}
-      {/*  </div>*/}
-      {/*</section>*/}
 
       {/*<section className="our_team bgc_grey col_dark_blue">*/}
       {/*  <h2>Meet our team</h2>*/}
