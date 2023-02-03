@@ -1,7 +1,7 @@
 import about_us from "assets/img/about_us.png";
 import styles from "./AboutUsHeader.module.scss";
 
-export const AboutUsHeader = () => (
+const AboutUsHeader = () => (
   <header className={styles.about_us}>
     <main>
       <p className={styles.pre_title}>About us</p>
@@ -14,3 +14,5 @@ export const AboutUsHeader = () => (
     <img src={about_us} alt="group meeting" height="672" width="1094"/>
   </header>
 );
+
+export default AboutUsHeader;

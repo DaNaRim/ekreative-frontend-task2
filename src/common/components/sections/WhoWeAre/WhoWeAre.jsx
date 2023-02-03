@@ -1,7 +1,7 @@
 import who_we_are from "assets/img/who_we_are.png";
 import styles from "./WhoWeAre.module.scss";
 
-export const WhoWeAre = () => (
+const WhoWeAre = () => (
   <section className={styles.who_we_are}>
     <div className={styles.top}>
       <p>Who we are</p>
@@ -27,3 +27,5 @@ export const WhoWeAre = () => (
     <img src={who_we_are} alt="man describes text in board to colleagues" height="680" width="2560"/>
   </section>
 );
+
+export default WhoWeAre;

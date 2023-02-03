@@ -1,58 +1,14 @@
-import {AboutUsHeader} from "../../components/sections/AboutUsHeader/AboutUsHeader";
-import {WhoWeAre} from "../../components/sections/WhoWeAre/WhoWeAre";
+import AboutUsHeader from "../../components/sections/AboutUsHeader/AboutUsHeader";
+import OurProcess from "../../components/sections/OurProcess/OurProcess";
+import WhoWeAre from "../../components/sections/WhoWeAre/WhoWeAre";
 
 const AboutUsPage = () => {
   return (
     <main>
       <AboutUsHeader/>
       <WhoWeAre/>
+      <OurProcess/>
 
-
-      {/*<section className="our_process col_dark_blue">*/}
-      {/*  <h2>The process we follow</h2>*/}
-      {/*  <div className="process_wrapper">*/}
-      {/*    <div className="process">*/}
-      {/*      <div className="work_line">*/}
-      {/*        <div className="circle bgc_royal_blue"></div>*/}
-      {/*        <div className="line"></div>*/}
-      {/*      </div>*/}
-      {/*      <h6>Planning</h6>*/}
-      {/*      <p className="body1">*/}
-      {/*        Lorem ipsum dolor sit amet, consetetur sadipscing elitr.*/}
-      {/*      </p>*/}
-      {/*    </div>*/}
-      {/*    <div className="process">*/}
-      {/*      <div className="work_line">*/}
-      {/*        <div className="circle bgc_royal_blue"></div>*/}
-      {/*        <div className="line"></div>*/}
-      {/*      </div>*/}
-      {/*      <h6>Conception</h6>*/}
-      {/*      <p className="body1">*/}
-      {/*        Lorem ipsum dolor sit amet, consetetur sadipscing elitr.*/}
-      {/*      </p>*/}
-      {/*    </div>*/}
-      {/*    <div className="process">*/}
-      {/*      <div className="work_line">*/}
-      {/*        <div className="circle bgc_royal_blue"></div>*/}
-      {/*        <div className="line"></div>*/}
-      {/*      </div>*/}
-      {/*      <h6>Design</h6>*/}
-      {/*      <p className="body1">*/}
-      {/*        Lorem ipsum dolor sit amet, consetetur sadipscing elitr.*/}
-      {/*      </p>*/}
-      {/*    </div>*/}
-      {/*    <div className="process">*/}
-      {/*      <div className="work_line">*/}
-      {/*        <div className="circle bgc_royal_blue"></div>*/}
-      {/*        <div className="line"></div>*/}
-      {/*      </div>*/}
-      {/*      <h6>Development</h6>*/}
-      {/*      <p className="body1">*/}
-      {/*        Lorem ipsum dolor sit amet, consetetur sadipscing elitr.*/}
-      {/*      </p>*/}
-      {/*    </div>*/}
-      {/*  </div>*/}
-      {/*</section>*/}
 
       {/*<section className="mission_and_vision col_dark_blue">*/}
       {/*  <article>*/}
