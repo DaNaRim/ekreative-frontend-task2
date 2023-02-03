@@ -1,4 +1,5 @@
 import AboutUsHeader from "../../components/sections/AboutUsHeader/AboutUsHeader";
+import MissionAndVision from "../../components/sections/MissionAndVision/MissionAndVision";
 import OurProcess from "../../components/sections/OurProcess/OurProcess";
 import WhoWeAre from "../../components/sections/WhoWeAre/WhoWeAre";
 
@@ -8,34 +9,8 @@ const AboutUsPage = () => {
       <AboutUsHeader/>
       <WhoWeAre/>
       <OurProcess/>
+      <MissionAndVision/>
 
-
-      {/*<section className="mission_and_vision col_dark_blue">*/}
-      {/*  <article>*/}
-      {/*    <div className="text_wrapper">*/}
-      {/*      <p className="label2">Our Mission</p>*/}
-      {/*      <h3>Inspire, Innovate, Share</h3>*/}
-      {/*      <p className="body1">*/}
-      {/*        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore*/}
-      {/*        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut*/}
-      {/*        aliquip ex ea commodo consequat.*/}
-      {/*      </p>*/}
-      {/*    </div>*/}
-      {/*    <img src="../img/our_mission.png" alt="a man smiling in front of a team meeting" height="672" width="1030"/>*/}
-      {/*  </article>*/}
-      {/*  <article>*/}
-      {/*    <img src="../img/our_vision.png" alt="four people at team meeting" height="668" width="1028"/>*/}
-      {/*    <div className="text_wrapper">*/}
-      {/*      <p className="label2">Our Vision</p>*/}
-      {/*      <h3>Laser focus</h3>*/}
-      {/*      <p className="body1">*/}
-      {/*        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore*/}
-      {/*        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut*/}
-      {/*        aliquip ex ea commodo consequat.*/}
-      {/*      </p>*/}
-      {/*    </div>*/}
-      {/*  </article>*/}
-      {/*</section>*/}
 
       {/*<section className="our_benefits col_dark_blue">*/}
       {/*  <h2>The benefits of working with us</h2>*/}
