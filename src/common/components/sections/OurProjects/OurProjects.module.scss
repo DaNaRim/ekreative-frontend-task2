@@ -7,8 +7,8 @@ $mainProjectHeight: 36em;
 
 $projectsGap: 2em;
 
-$secondaryProjectWidth: $mainProjectWidth / 2;
-$secondaryProjectHeight: $mainProjectHeight / 2 - $projectsGap / 2;
+$secondaryProjectWidth: calc($mainProjectWidth / 2);
+$secondaryProjectHeight: calc($mainProjectHeight / 2 - $projectsGap / 2);
 
 .projects {
   padding: $sectionPaddingY $sectionPaddingX;
