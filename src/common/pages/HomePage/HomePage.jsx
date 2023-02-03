@@ -1,11 +1,11 @@
-import Blog from "../../components/Blog/Blog";
-import Faq from "../../components/Faq/Faq";
-import Features from "../../components/Features/Features";
-import HomeHeader from "../../components/HomeHeader/HomeHeader";
-import HowWeWork from "../../components/HowWeWork/HowWeWork";
-import InquiryForm from "../../components/InquiryForm/InquiryForm";
-import OurProjects from "../../components/OurProjects/OurProjects";
-import Reviews from "../../components/Reviews/Reviews";
+import Blog from "../../components/sections/Blog/Blog";
+import Faq from "../../components/sections/Faq/Faq";
+import Features from "../../components/sections/Features/Features";
+import HomeHeader from "../../components/sections/HomeHeader/HomeHeader";
+import HowWeWork from "../../components/sections/HowWeWork/HowWeWork";
+import InquiryForm from "../../components/sections/InquiryForm/InquiryForm";
+import OurProjects from "../../components/sections/OurProjects/OurProjects";
+import Reviews from "../../components/sections/Reviews/Reviews";
 
 const HomePage = () => (
   <main>

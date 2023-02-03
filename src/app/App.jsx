@@ -1,6 +1,7 @@
 import React from "react";
 import {Route, Routes} from "react-router";
-import PageWrapper from "../common/components/PageWrapper/PageWrapper";
+import PageWrapper from "../common/components/base/PageWrapper/PageWrapper";
+import AboutUsPage from "../common/pages/AboutUsPage/AboutUsPage";
 import HomePage from "../common/pages/HomePage/HomePage";
 import "./App.scss";
 
@@ -8,9 +9,9 @@ const App = () => (
   <Routes>
     <Route path="/" element={<PageWrapper/>}>
       <Route path="/" index element={<HomePage/>}/>
-      <Route path="/aboutUs" element={<HomePage/>}/>
-      <Route path="/pricing" element={<HomePage/>}/>
-      <Route path="/comingSoon" element={<HomePage/>}/>
+      <Route path="/aboutUs" element={<AboutUsPage/>}/>
+      {/*<Route path="/pricing" element={<HomePage/>}/>*/}
+      <Route path="*" element={<HomePage/>}/>
     </Route>
   </Routes>
 );
