@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkekreative_frontend_task2=self.webpackChunkekreative_frontend_task2||[]).push([[948],{7948:function(n,e,o){o.r(e),o.d(e,{default:function(){return s}});var t="ComingSoonPage_coming_soon__-slvK",r=o(184),s=function(){return(0,r.jsx)("main",{className:t,children:(0,r.jsx)("h2",{children:"Coming Soon"})})}}}]);
+//# sourceMappingURL=948.5cad4dea.chunk.js.map
