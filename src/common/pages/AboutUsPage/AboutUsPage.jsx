@@ -1,35 +1,12 @@
 import {AboutUsHeader} from "../../components/sections/AboutUsHeader/AboutUsHeader";
+import {WhoWeAre} from "../../components/sections/WhoWeAre/WhoWeAre";
 
 const AboutUsPage = () => {
   return (
     <main>
       <AboutUsHeader/>
+      <WhoWeAre/>
 
-
-      {/*<section className="who_we_are">*/}
-      {/*  <div className="top">*/}
-      {/*    <div className="label2">Who we are</div>*/}
-      {/*    <div className="content_wrapper">*/}
-      {/*      <article>*/}
-      {/*        <h3>Goal focussed</h3>*/}
-      {/*        <p className="body1">*/}
-      {/*          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut*/}
-      {/*          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco*/}
-      {/*          laboris nisi ut aliquip ex ea commodo consequat.*/}
-      {/*        </p>*/}
-      {/*      </article>*/}
-      {/*      <article>*/}
-      {/*        <h3>Continuous improvement</h3>*/}
-      {/*        <p className="body1">*/}
-      {/*          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut*/}
-      {/*          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco*/}
-      {/*          laboris nisi ut aliquip ex ea commodo consequat.*/}
-      {/*        </p>*/}
-      {/*      </article>*/}
-      {/*    </div>*/}
-      {/*  </div>*/}
-      {/*  <img src="../img/who_we_are.png" alt="man describes text in board to colleagues" height="680" width="2560"/>*/}
-      {/*</section>*/}
 
       {/*<section className="our_process col_dark_blue">*/}
       {/*  <h2>The process we follow</h2>*/}
